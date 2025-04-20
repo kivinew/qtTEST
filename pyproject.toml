@@ -1,0 +1,13 @@
+[project]
+name = "qttest"
+version = "0.1.0"
+description = "Тест разработки windows приложения на основе QT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyperclip>=1.9.0",
+    "pyqt6>=6.9.0",
+    "pyside6>=6.9.0",
+    "telnetlib3",
+    "xtelnet>=2.2.7",
+]
